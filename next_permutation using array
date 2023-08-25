@@ -1,0 +1,28 @@
+void s22(){
+		int n;
+		cin>>n;
+		vector<int>a;
+		forn(i,n){
+			int x;
+		cin>>x;
+		a.pb(x);
+	}
+	sort(a.begin(),a.end());
+		vector<int>ans;
+		int cnt=0;
+		do{
+			cnt++;
+			for(int i=0;i<n;i++)
+				cout<<a[i]<<" ";
+			cout<<endl;
+
+		}
+		while(next_permutation(a.begin(),a.end()));
+		cout<<cnt<<endl;
+
+		
+
+
+
+
+	}
