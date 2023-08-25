@@ -17,3 +17,5 @@ void s21(){
 	}
 
 	}
+
+time complexity O(n*n!)
